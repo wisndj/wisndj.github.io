@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册界面</title>
+    <style>
+        #all{
+    width: 900px;
+    height: 500px;
+    border: 6px solid #EEEEEE;
+}
+
+#left{
+    width: 150px;
+    height: 100%;
+    float: left;
+}
+
+#left .p1{
+    color: #6cACD8;
+    font-size: 18PX;
+    margin-left: 8PX;
+}
+
+#left .p2{
+    color: #a6a6a6;
+    font-size: 18PX;
+    margin-left: 8PX;
+}
+
+#center{
+    width: 600px;
+    height: 100%;
+    float: left;
+}
+
+#center table{
+    width: 100%;
+    height: 500px;
+}
+
+.cell1{
+    text-align: right;
+    padding-right: 20px;
+}
+
+.cell2{
+    width: 220px;
+    height: 26px;
+    border: 1px solid grey;
+    border-radius: 6px;
+    padding-left: 6px;
+}
+
+.cell3{
+    width: 200px;
+    height: 40px;
+    background-color: #6cACD8;
+    border: 1px solid #6cACD8;
+    border-radius: 20px;
+}
+
+.cell4{
+    width: 200px;
+
+}
+
+#right{
+    width: 150px;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+#right p{
+    color: #6cACD8;
+    font-size: 14px;
+}
+
+#right p a{
+    color: #FFC0CB;
+}
+    </style>
+</head>
+<body>
+    <div id="all">
+        <div id="left">
+            <p class="p1">用户注册</p>
+            <p class="p2">USER REGISTER</p>
+        </div>
+        <div id="center">
+            <form>
+                <table>
+                    <tr>
+                        <td class="cell1">用户名</td>
+                        <td>
+                            <input class="cell2" type="text" placeholder="请输入用户名"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="cell1">密码</td>
+                        <td>
+                            <input class="cell2" type="password" placeholder="请输入密码"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="cell1">Emali</td>
+                        <td>
+                            <input class="cell2" type="text" placeholder="请输入Emali"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="cell1">姓名</td>
+                        <td>
+                            <input class="cell2" type="text" placeholder="请输入姓名"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="cell1">手机号</td>
+                        <td>
+                            <input class="cell2" type="text" placeholder="请输入用户名"/>
+                        </td>                       
+                    </tr>
+                    <tr>
+                        <td class="cell1">性别</td>
+                        <td>
+                            <input type="radio" name="s" checked="checked"/>男
+                            <input type="radio" name="s"/>女
+                            <input type="radio" name="s"/>保密
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="cell1">出生日期</td>
+                        <td>
+                            <input class="cell2" type="date"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="cell1">验证码</td>
+                        <td>
+                            <input class="cell2" type="text" placeholder="请输入验证码"/>
+                            <input type="reset" value="发送验证"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="text-align: center;">
+                            <input class="cell3 cell4" type="submit" value="注册"/>
+                        </td>
+
+                        <td></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <div id="right">
+            <p>已有账号？<a href="file:///C:/Users/dzy/vsc/html/%E5%AE%9E%E8%AE%AD/denglu.html">立即登录</a></p>
+        </div>
+    </div>
+</body>
+</html>
