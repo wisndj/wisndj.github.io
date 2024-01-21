@@ -1,0 +1,263 @@
+*{padding: 0px; margin: 0px;}
+body{
+    padding-bottom: 50px;
+}
+
+.ding{
+    width: 100%;
+    height: auto;
+}
+.du{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    list-style-type: none;
+    text-align: center;
+    padding: 5px;
+}
+.du li{
+    float: left;
+    flex-basis: 25%;
+    font-size: 20px;
+    padding-top: 8px;
+}
+.du a{
+    text-decoration: none;
+    color: red;
+}
+.ss{
+    border: 1px solid grey;
+    border-radius: 6px;
+    padding-top: 6px;
+    padding-right: 6px;
+    margin-right: 5px;
+    padding-bottom: 3px;
+}
+
+
+
+.u{
+    list-style: none;
+}
+.u li{
+    float:left; 
+    background:rgb(225, 41, 72); 
+    text-align:center; 
+    line-height:50px;
+    width:16.66%;
+    font-size: 20px;
+}
+.u a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.shang{
+    width: 100%;
+    height: auto;
+    font-size: 0;
+}
+.shang img{
+    width: 100%;
+    height: auto;
+}
+.tp{
+    width: 100%;
+	height: 900px;
+	border: 0px solid red;
+	background-image: url(tp/1.png);
+	animation: 20s gd  infinite;
+    background-size: 100% 900px;
+}
+@keyframes gd{
+	0%{background-image: url(tp/1.png);}
+	25%{background-image: url(tp/2.png);}
+	50%{background-image: url(tp/3.png);}
+	75%{background-image: url(tp/4.png);}
+	100%{background-image: url(tp/5.png);}
+}
+.zhong{
+    width: 100%;
+    height: auto;
+}
+.zuo{
+    width: 60%;
+    height: auto;
+    float: left;
+    padding-left: 10px;
+}
+.p1{
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    color: red;
+    background-color: rgb(101, 9, 27);
+    border: 0px solid;
+}
+.zuo hr{
+    border: none;
+    border-top: 2px solid rgb(48, 0, 240);
+    margin-bottom: 5px;
+}
+.zuo1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 455px;
+    background-image: url(images/image2.jpg);
+}
+.zuo img{
+    padding-left: 5px;
+    padding-right: 5px;
+    float: left;
+    width: 50%;
+    border-radius: 50%;
+    height: 50%;
+}
+.p1 img{
+    padding-left: 10px;
+    width: 1000px;
+}
+.pp1{
+    word-wrap: break-word;
+    word-break: break-all;
+    color: rgb(252, 252, 252);
+    font-size: 15px;
+    background-color: rgb(71, 100, 100);
+    opacity: 0.8;
+}
+.a{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+
+
+.cqhgimg{
+    padding-bottom: 15px;
+}
+.zuo2 .p11{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-size: 40px;
+    color: rgb(42, 14, 14);
+    background-color: rgb(255, 19, 19);
+    border: 0px solid;
+}
+.zuo2 hr{
+    border: none;
+    border-top: 2px solid rgb(240, 0, 0);
+    margin-bottom: 5px;
+}
+.p12{
+    word-wrap: break-word;
+    word-break: break-all;
+    color: rgb(198, 17, 17);
+    font-size: 20px;
+}
+
+
+
+.you{
+    width: 30%;
+    height: auto;
+    float: right;
+    padding-right: 10px;
+}
+.p2{
+    padding-right: 10px;
+    margin-top: 5px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: red;
+    font-size: 40px;
+    background-color: darkred;
+    border: 0px solid;
+}
+.you hr{
+    border: none;
+    border-top: 2px solid rgb(101, 192, 171);
+    margin-bottom: 5px;
+}
+.you img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.pp2{
+    word-wrap: break-word;
+    color: rgb(114, 31, 31);
+    font-size: 20px;
+}
+
+
+.c{
+    clear: both;
+}
+
+
+
+.di{
+    width: 100%;
+    height: 240px;
+    background-color: rgb(89, 59, 59);
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ud{
+    width: 40%;
+    height: 160px;
+}
+.up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+.up li{
+    font-size: 25px;
+    flex-basis: 50%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.up a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
+
+.xia{
+    background-color: rgb(154, 31, 31);
+    border: 1px solid aliceblue;
+    width: 100%;
+    height: 50px;
+    word-spacing: 200px;
+}
+.xia ul{
+    list-style: none;
+    float: left;
+    width: 100%;
+    background:rgb(225, 41, 72); 
+    text-align:center; 
+    line-height:50px;
+}
+.xia ul li{
+    float: left;
+    width: 16.66%;
+    font-size: 15px; 
+}
+.xia a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
